@@ -1,0 +1,21 @@
+
+- defaults:
+    link:
+      relink: true
+      create: true
+
+- clean: ['~']
+
+- link:
+    ~/.vimrc: .vimrc
+    ~/.zshrc: .zshrc
+    ~/.zshrc-personal: .zshrc-personal
+    ~/.bashrc: .bashrc
+    ~/.bashrc-personal: .bashrc-personal
+    ~/.config: .config
+
+- create:
+    - ~/.vim/undo-history
+
+- shell:
+  - [echo "hier könnte ihre werbung stehen!"]
