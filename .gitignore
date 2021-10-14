@@ -1,0 +1,6 @@
+# Config-Excludes
+.config/Code - Insiders
+.config/discordcanary
+.config/dconf
+.config/Microsoft
+
